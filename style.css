@@ -1,0 +1,124 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    color: #0056b3;
+    font-size: 1.8em;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+}
+
+#quiz-area {
+    background-color: #e9f5ff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#question-number {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+#question-text, #answer-text {
+    font-size: 1.2em;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+#answer-text {
+    color: #28a745;
+    font-weight: bold;
+    border: 2px solid #28a745;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+button:hover:not(:disabled) {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.navigation button {
+    width: 45%;
+    margin-top: 15px;
+}
+
+#answer-toggle {
+    background-color: #ffc107;
+    color: #333;
+}
+
+#answer-toggle:hover {
+    background-color: #e0a800;
+}
+
+.hidden {
+    display: none;
+}
+
+#result-area {
+    padding: 30px;
+    border: 2px solid #28a745;
+    border-radius: 10px;
+    background-color: #d4edda;
+    color: #155724;
+}
+
+#restart-button {
+    background-color: #6c757d;
+}
+
+#restart-button:hover {
+    background-color: #5a6268;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #6c757d;
+}
